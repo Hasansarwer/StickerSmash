@@ -8,7 +8,7 @@ export default function Index() {
     >
       <Text style={styles.text}> Home screen.</Text>
       <Link href="/about" style={styles.button}>
-        Go to About
+        Go to About screen
       </Link>
     </View>
   );
@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
   button: {
     fontSize: 20,
     textDecorationLine: "underline",
-    color: "blue",
+    color: "#fff",
   }
 });
